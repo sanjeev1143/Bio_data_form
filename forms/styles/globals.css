@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+}
+
+
+.navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+.navhead {
+  text-decoration: none;
+  color: white;
+  margin: 2vh;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formX {
+  display: flex;
+  flex-direction: column;
+  font-weight: 900;
+  width: 40vw;
+  height: 50vh;
+  padding-right: 3vw;
+  line-height: 4vh;
+
+}
+
+button {
+  margin-top: 4vh;
+}
+
+.auto {
+  background-color: rgba(255, 127, 80, 0.678);
+  position: absolute;
+  border-radius: 8px;
+  overflow: scroll;
+  height: 30vh;
+  top: 40vh;
+  left: 29vw;
+  padding-left: 1vw;
+  width: 40vw;
+  cursor: pointer;
+
+}
+
+.invalid {
+  font-size: xx-large;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.table table {
+  border: 2px solid black;
+}
+
+.table table tr th,
+.table table tr td {
+  border: 1px solid black;
+  width: 10vw;
+}
